@@ -3,8 +3,6 @@
 All experiments are implemented in Jupyter notebooks.
 The core optimization and loss functions are shared across notebooks; each notebook differs only in the dataset and regularization setting.
 
----
-
 ## Experiment Setup
 
 The experiments compare the following optimization algorithms:
@@ -47,4 +45,5 @@ Two public datasets are used:
 - Loss: Logistic loss with smooth nonconvex regularization
 - Algorithms: GD, RCD
 - Purpose: Test stability and convergence behavior of RCD under nonconvex settings
+
 
